@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Layout } from 'antd';
+import AppRoutes from '../src/router/router';
+import '../src/assets/styles/global.css';
 
-function App() {
+const { Header, Content, Footer } = Layout;
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Header className='header' style={{display: 'none'}}>
+        {/*
+        Componente header/navbar
+        */}
+        {/* Adicione o conteúdo do header aqui */}
+      </Header>
+      <Content className='content'>
+        <AppRoutes />
+      </Content>
+      <Footer className='footer' style={{display: 'none'}}>
+        {/*
+        Componente footer
+        */}
+        {/* Adicione o conteúdo do footer aqui */}
+      </Footer>
+    </Layout>
   );
-}
+};
 
 export default App;
