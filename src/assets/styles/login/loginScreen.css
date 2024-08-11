@@ -1,0 +1,50 @@
+.login-form input::placeholder {
+    color: rgb(167, 167, 167);
+    opacity: 1;
+    font-weight: 400;
+}
+
+.buttonLogin {
+    width: 65%;
+    height: 70px;
+    background-color: rgb(44, 44, 44);
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-input-affix-wrapper .ant-input-prefix {
+    margin-inline-end: 10px;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-btn-primary {
+    background-color: rgb(44, 44, 44) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-input-affix-wrapper>input.ant-input,
+:where(.css-dev-only-do-not-override-d2lrxs).ant-input-affix-wrapper>textarea.ant-input {
+    font-size: 18px;
+    background: none !important;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) .ant-input-prefix,
+:where(.css-dev-only-do-not-override-d2lrxs).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) .ant-input-suffix {
+    color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-d2lrxs).ant-form-item .ant-form-item-explain-error {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        margin: 50px !important
+    }
+}
+
+@media (max-width: 375px) {
+    .card-body {
+        margin: 50px !important
+    }
+}

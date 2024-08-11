@@ -1,0 +1,5 @@
+.register-form input::placeholder {
+    color: rgb(192, 192, 192);
+    opacity: 1;
+    font-weight: 400;
+}

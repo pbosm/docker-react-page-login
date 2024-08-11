@@ -1,0 +1,11 @@
+.registerCard-form {
+    position: absolute;
+    right: -100%;
+    height: auto !important;
+}
+
+.registerCard-form input::placeholder {
+    color: rgb(192, 192, 192);
+    opacity: 1;
+    font-weight: 400;
+}
